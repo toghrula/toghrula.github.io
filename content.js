@@ -24,8 +24,8 @@ const SITE = {
   institution: "School of Management, University at Buffalo (SUNY)",
   location: "Buffalo, NY",
   email: "toghrula@buffalo.edu",
-  photo: "assets/photo.jpg",     // put your headshot at this path; leave "" to hide
-  cvFile: "assets/Toghrul_Aghbabali_CV.pdf",   // path to your CV PDF; "" hides the button
+  photo: "photo.jpg",            // put your headshot at this path; leave "" to hide
+  cvFile: "Toghrul_Aghbabali_CV.pdf",   // your CV PDF (in the same folder as index.html); "" hides the button
 
   // Profile links. Add or remove lines freely. Icons: "ssrn", "scholar",
   // "linkedin", "github", "twitter", "orcid", "email", "link".
@@ -40,7 +40,8 @@ const SITE = {
 
   about: [
     "I am a third-year PhD student in Finance at the School of Management, University at Buffalo (SUNY). My research sits at the intersection of market microstructure and the economics of artificial intelligence: how large language models and generative AI reshape information processing, trading, and price formation in financial markets, and how firms and investors are affected by their adoption.",
-    "Before Buffalo, I earned an M.S. in Finance from the George Washington University, where I received the Charles and Florence Diehl Finance Student of the Year Prize, and dual bachelor's degrees from SUNY New Paltz and Istanbul Technical University, graduating first in my class at both. Outside research, I mentor high-school students on AI and financial literacy and work with Azerbaijan's National Artificial Intelligence Center on building research capacity in my home country.
+    "Before Buffalo, I earned an M.S. in Finance from the George Washington University, where I received the Charles and Florence Diehl Finance Student of the Year Prize, and dual bachelor's degrees from SUNY New Paltz and Istanbul Technical University, graduating first in my class at both. Outside research, I mentor high-school students on AI and financial literacy and work with Azerbaijan's National Artificial Intelligence Center on building research capacity in my home country.",
+  ],
 
   interests: [
     "Market microstructure",
