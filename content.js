@@ -20,7 +20,7 @@ const SITE = {
 
   /* ---------- Identity ---------- */
   name: "Toghrul Aghbabali",
-  title: "PhD Candidate in Finance",
+  title: "PhD Student in Finance",
   institution: "School of Management, University at Buffalo (SUNY)",
   location: "Buffalo, NY",
   email: "toghrula@buffalo.edu",
