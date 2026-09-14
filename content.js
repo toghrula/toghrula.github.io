@@ -39,8 +39,8 @@ const SITE = {
   tagline: "Market microstructure · Generative AI in finance · Retail trading",
 
   about: [
-    "I am a third-year PhD student in Finance at the School of Management, University at Buffalo (SUNY). My research sits at the intersection of market microstructure and the economics of artificial intelligence: how large language models and generative AI reshape information processing, trading, and price formation in financial markets, and how firms and investors are affected by their adoption.",
-    "Before Buffalo, I earned an M.S. in Finance from the George Washington University, where I received the Charles and Florence Diehl Finance Student of the Year Prize, and dual bachelor's degrees from SUNY New Paltz and Istanbul Technical University, graduating first in my class at both. Outside research, I mentor high-school students on AI and financial literacy and work with Azerbaijan's National Artificial Intelligence Center on building research capacity in my home country.",
+    "Hello! Welcome to my webpage :) I am a third-year PhD student in Finance at the School of Management, University at Buffalo (SUNY). My research sits at the intersection of market microstructure and the economics of artificial intelligence: how large language models and generative AI reshape information processing, trading, and price formation in financial markets, and how firms and investors are affected by their adoption.",
+    "Before Buffalo, I earned an M.S. in Finance from the George Washington University, and prior to that dual bachelor's degrees from SUNY New Paltz and Istanbul Technical University. Outside research, I mentor high-school students on AI and financial literacy and work with Azerbaijan's National Artificial Intelligence Center on building research capacity in my home country.",
   ],
 
   interests: [
@@ -72,7 +72,7 @@ const SITE = {
       date: "May 2026",
       status: "Working Paper",
       ssrn: "",
-      abstract: "",
+      abstract: "We study the firm-level effects of generative AI using the release of ChatGPT as an exogenous shock. We construct a measure of Generative AI Benefit Potential (GBP) based on occupational work content and show that firms with higher GBP experience significant improvements in operating performance, productivity, and valuation, while reducing capital expenditures, R&D, and acquisitions. These effects are highly heterogeneous across work characteristics, with digital complementarity playing a central role. Stock returns reflect these gains only gradually, indicating delayed market learning. Our findings highlight how the composition of work content and absorptive capacity shape the economic impact of general-purpose technologies.",
       notes: [],
     },
     {
@@ -81,7 +81,7 @@ const SITE = {
       date: "March 2026",
       status: "Working Paper",
       ssrn: "https://ssrn.com/abstract=6300040",
-      abstract: "",
+      abstract: "We distinguish two channels through which generative AI affects firm value: augmenting human expertise and substituting for human labor. Using task-level exposure measures from O*NET and the release of ChatGPT as an information shock, we find that augmentation increases operating profitability, labor productivity, and abnormal stock returns. By contrast, substitution effects depend on task content: substituting routine cognitive tasks improves operating performance, whereas substituting non-routine analytical work reduces operating income per employee. In stock markets, augmentation exposure generates significant abnormal returns, whereas substitution generates no comparable premium. Short-selling behavior further corroborates the asymmetric valuation effects of augmentation and AI substitution.",
       notes: [
         "Scheduled: 3rd Conference on AI in Finance, TUD Dresden University of Technology (September 2026)",
         "Presented by co-author at Yonsei University and Sungkyunkwan University (SKKU), June 2026",
@@ -93,7 +93,7 @@ const SITE = {
       date: "December 2025",
       status: "Working Paper",
       ssrn: "https://ssrn.com/abstract=5985874",
-      abstract: "",
+      abstract: "We examine whether generative AI reduces information asymmetry by lowering investors’ costs of processing public information. Using a firm-level measure of how effectively ChatGPT interprets financial disclosures and its public release as a shock, we find that firms with more AI-processable disclosures experience declines in informed trading, adverse selection, and volatility, along with improved liquidity and price efficiency. Retail order imbalances increase, consistent with enhanced processing of public information. An independent measure based on occupational characteristics provides complementary evidence. Overall, our findings suggest that generative AI democratizes information processing, reduces sophisticated investors’ informational advantages, and improves market quality.",
       award: "Outstanding Paper Award for Overseas Scholars — Joint Conference of the Allied Korean Finance Associations (AKFA), Seoul, May 2026",
       notes: [
         "Scheduled: FMA Asia & Pacific Conference, Auckland, New Zealand (December 2026)",
@@ -270,7 +270,7 @@ const SITE = {
   /* ---------- Outside work ---------- */
   // Short, human touches. Shown under "Additional". Leave [] to hide.
   hobbies: [
-    "Huge soccer fan",
+    "Soccer fan",
     "Skiing",
   ],
 
