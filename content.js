@@ -39,9 +39,8 @@ const SITE = {
   tagline: "Market microstructure · Generative AI in finance · Retail trading",
 
   about: [
-    "I am a third-year PhD student in Finance at the School of Management, University at Buffalo (SUNY), where I work with Kee H. Chung. My research sits at the intersection of market microstructure and the economics of artificial intelligence: how large language models and generative AI reshape information processing, trading, and price formation in financial markets, and how firms and investors are affected by their adoption.",
-    "Before Buffalo, I earned an M.S. in Finance from the George Washington University, where I received the Charles and Florence Diehl Finance Student of the Year Prize, and dual bachelor's degrees from SUNY New Paltz and Istanbul Technical University, graduating first in my class at both. I have presented my work at conferences in North America, Europe, and Asia, and my research has been recognized with the Outstanding Paper Award for Overseas Scholars at the Allied Korean Finance Associations joint conference.",
-  ],
+    "I am a third-year PhD student in Finance at the School of Management, University at Buffalo (SUNY). My research sits at the intersection of market microstructure and the economics of artificial intelligence: how large language models and generative AI reshape information processing, trading, and price formation in financial markets, and how firms and investors are affected by their adoption.",
+    "Before Buffalo, I earned an M.S. in Finance from the George Washington University, where I received the Charles and Florence Diehl Finance Student of the Year Prize, and dual bachelor's degrees from SUNY New Paltz and Istanbul Technical University, graduating first in my class at both. Outside research, I mentor high-school students on AI and financial literacy and work with Azerbaijan's National Artificial Intelligence Center on building research capacity in my home country.
 
   interests: [
     "Market microstructure",
