@@ -85,6 +85,7 @@ const SITE = {
       notes: [
         "Scheduled: 3rd Conference on AI in Finance, TUD Dresden University of Technology (September 2026)",
         "Presented by co-author at Yonsei University and Sungkyunkwan University (SKKU), June 2026",
+        "Featured on the TU Dresden website",
       ],
     },
     {
@@ -97,7 +98,8 @@ const SITE = {
       award: "Outstanding Paper Award for Overseas Scholars — Joint Conference of the Allied Korean Finance Associations (AKFA), Seoul, May 2026",
       notes: [
         "Scheduled: FMA Asia & Pacific Conference, Auckland, New Zealand (December 2026)",
-        "Featured in <a href=\"https://www.zertifikateberater.de/magazin/26-01\">Der Zertifikateberater</a>",
+        "Scheduled: AFA PhD Poster Session, Washington, DC (January 2027)",
+        "Featured in <a href=\"https://www.zertifikateberater.de/magazin/26-01\">Der Zertifikateberater</a> and <a href=\"https://management.buffalo.edu/about/highlights/ai-in-the-ub-school-of-management/when-ai-reads-fine-print-markets-shift.html\">AI in the UB School of Management</a>",
       ],
     },
     {
@@ -114,9 +116,11 @@ const SITE = {
   /* ---------- Presentations & conference service ---------- */
   // Free-form list; newest first.
   presentations: [
+    { year: "2027", text: "AFA PhD Poster Session, Washington, DC (scheduled, January)" },
     { year: "2026", text: "FMA Asia & Pacific Conference, Auckland, New Zealand (scheduled, December)" },
     { year: "2026", text: "3rd AI in Finance Conference, Montreal, Canada (scheduled, October)" },
     { year: "2026", text: "3rd Conference on AI in Finance, TUD Dresden University of Technology, Germany (scheduled, September)" },
+    { year: "2026", text: "Yonsei University and Sungkyunkwan University (SKKU), Korea (presented by co-author, June)" },
     { year: "2026", text: "Joint Conference of the Allied Korean Finance Associations (AKFA), Seoul, Korea (May)" },
     { year: "2025", text: "Discussant, Financial Management Association (FMA) Annual Meeting, Vancouver, Canada" },
     { year: "2025", text: "Market Microstructure Summer School, University of Edinburgh (June)" },
@@ -133,6 +137,21 @@ const SITE = {
       text: "Research featured in Der Zertifikateberater (issue 26-01)",
       outlet: "Der Zertifikateberater",
       url: "https://www.zertifikateberater.de/magazin/26-01",
+    },
+    {
+      text: "Listed among the Top 10 Most-Read Enterprising Investor Blogs (Q1 2026)",
+      outlet: "CFA Institute — Enterprising Investor",
+      url: "https://rpc.cfainstitute.org/blogs/enterprising-investor/2026/top-10-most-read-q1-enterprising-investor-blogs",
+    },
+    {
+      text: "Cognitive Surrender: AI and Investor Judgment",
+      outlet: "The Evidence-Based Investor",
+      url: "https://www.evidenceinvestor.com/post/cognitive-surrender-ai-investor-judgment",
+    },
+    {
+      text: "When AI Reads the Fine Print, Markets Shift",
+      outlet: "AI in the UB School of Management",
+      url: "https://management.buffalo.edu/about/highlights/ai-in-the-ub-school-of-management/when-ai-reads-fine-print-markets-shift.html",
     },
   ],
 
@@ -209,7 +228,7 @@ const SITE = {
   /* ---------- Honors & awards ---------- */
   awards: [
     { year: "2026", text: "Outstanding Paper Award for Overseas Scholars, Allied Korean Finance Associations (AKFA) Joint Conference, Seoul" },
-    { year: "2026", text: "Mentor, “AI and Financial Literacy” high-school project — 3rd place nationally; Microsoft Special Award, International Science Education Fair, Arizona" },
+    { year: "2026", text: "Mentor, <a href=\"https://isef.net/project/sftd048t-ai-and-financial-literacy\" target=\"_blank\" rel=\"noopener\">“AI and Financial Literacy”</a> high-school project — 3rd place nationally; Microsoft Special Award, International Science Education Fair, Arizona" },
     { year: "2024", text: "Charles and Florence Diehl “Finance Student of the Year” Prize, George Washington University" },
     { year: "2024", text: "Beta Gamma Sigma, GWU chapter" },
     { year: "2022", text: "First in Class, SUNY New Paltz (summa cum laude) and Istanbul Technical University" },
@@ -252,6 +271,7 @@ const SITE = {
     "CFA Level I (2024)",
     "Securities Industry Essentials (SIE), FINRA (2024)",
     "Bloomberg Market Concepts (2024)",
+    "Excel Skills for Business, Macquarie University (2021)",
   ],
 
   skills: [
@@ -265,6 +285,8 @@ const SITE = {
     "Vice President, Azerbaijani Student Association, GWU",
     "Senior Student Analyst, Hawk Investment Fund, SUNY New Paltz",
     "Volunteer teacher, Junior Achievement, Northeastern New York",
+    "SUNY Campus Food Sustainability Ambassador",
+    "Student Athletic Assistant, George Washington University",
   ],
 
   /* ---------- Outside work ---------- */
@@ -275,5 +297,5 @@ const SITE = {
   ],
 
   /* ---------- Footer ---------- */
-  footerNote: "",   // optional one-liner, e.g. "Last updated September 2026"
+  footerNote: "Last updated October 2026",   // optional one-liner, e.g. "Last updated September 2026"
 };
