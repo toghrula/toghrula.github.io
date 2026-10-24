@@ -28,8 +28,9 @@ const SITE = {
   // through them. Upload each image to the repo and add a line here; the
   // first one shows first. A caption is optional. Leave [] to hide.
   photos: [
-    { src: "photo.jpg", caption: "" },
-    // { src: "photo2.jpg", caption: "AKFA Joint Conference, Seoul, 2026" },
+    { src: "headshot.jpg", caption: "" },
+    { src: "fma2025.jpg",  caption: "Discussant, FMA Annual Meeting, Vancouver, 2025" },
+    { src: "photo.jpg",    caption: "Presenting “Augmentation Versus Substitution”" },
   ],
   cvFile: "Toghrul_Aghbabali_CV.pdf",   // your CV PDF (in the same folder as index.html); "" hides the button
 
