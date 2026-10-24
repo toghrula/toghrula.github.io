@@ -173,7 +173,7 @@
   else {
     const track = $("photo-track"), dots = $("photo-dots");
     const prev = box.querySelector(".prev"), next = box.querySelector(".next");
-    track.innerHTML = list(pics, (p, i) => `<figure class="slide"><img src="${esc(p.src)}" alt="${esc(p.caption || "Photo of " + SITE.name)}" ${i ? 'loading="lazy"' : ""}>${p.caption ? `<figcaption>${esc(p.caption)}</figcaption>` : ""}</figure>`);
+    track.innerHTML = list(pics, (p, i) => `<figure class="slide${p.full ? " full" : ""}">${p.full ? `<img class="bg" src="${esc(p.src)}" alt="" aria-hidden="true">` : ""}<img src="${esc(p.src)}" alt="${esc(p.caption || "Photo of " + SITE.name)}" ${i ? 'loading="lazy"' : ""}>${p.caption ? `<figcaption>${esc(p.caption)}</figcaption>` : ""}</figure>`);
     const slides = [...track.children];
     if (pics.length > 1) {
       dots.innerHTML = list(pics, (p, i) => `<button type="button" aria-label="Show photo ${i + 1}"></button>`);
