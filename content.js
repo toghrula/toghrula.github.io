@@ -24,7 +24,13 @@ const SITE = {
   institution: "School of Management, University at Buffalo (SUNY)",
   location: "Buffalo, NY",
   email: "toghrula@buffalo.edu",
-  photo: "photo.jpg",            // put your headshot at this path; leave "" to hide
+  // Photos in the header. Visitors can swipe or click the arrows to scroll
+  // through them. Upload each image to the repo and add a line here; the
+  // first one shows first. A caption is optional. Leave [] to hide.
+  photos: [
+    { src: "photo.jpg", caption: "" },
+    // { src: "photo2.jpg", caption: "AKFA Joint Conference, Seoul, 2026" },
+  ],
   cvFile: "Toghrul_Aghbabali_CV.pdf",   // your CV PDF (in the same folder as index.html); "" hides the button
 
   // Profile links. Add or remove lines freely. Icons: "ssrn", "scholar",
