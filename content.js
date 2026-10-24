@@ -28,7 +28,7 @@ const SITE = {
   // through them. Upload each image to the repo and add a line here; the
   // first one shows first. A caption is optional. Leave [] to hide.
   photos: [
-    { src: "headshot.jpg", caption: "" },
+    { src: "headshot.jpg", caption: "", full: true },   // full: true = show the whole photo, no cropping
     { src: "fma2025.jpg",  caption: "Discussant, FMA Annual Meeting, Vancouver, 2025" },
     { src: "photo.jpg",    caption: "Presenting “Augmentation Versus Substitution”" },
   ],
@@ -39,7 +39,7 @@ const SITE = {
   links: [
     { label: "SSRN",           url: "",                                                          icon: "ssrn" },
     { label: "Google Scholar", url: "",                                                          icon: "scholar" },
-    { label: "LinkedIn",       url: "",                                                          icon: "linkedin" },
+    { label: "LinkedIn",       url: "https://www.linkedin.com/in/toghrul-aghbabali-bbb911198/",                                                          icon: "linkedin" },
   ],
 
   /* ---------- Home / About ---------- */
@@ -63,24 +63,18 @@ const SITE = {
   //                 "Forthcoming", "Published". Add `journal` for published work.
   papers: [
     {
-      title: "How Sure Is the Machine? Extracting Economically Meaningful Signals from LLM Response Confidence",
-      coauthors: "with Kee H. Chung",
-      date: "July 2026",
+      title: "When AI Reads the 10-Ks: The Effects of ChatGPT on Trading and Price Dynamics",
+      coauthors: "with Kee H. Chung and Sahn-Wook Huh",
+      date: "December 2025",
       status: "Working Paper",
-      ssrn: "",
-      abstract: "",
+      ssrn: "https://ssrn.com/abstract=5985874",
+      abstract: "We examine whether generative AI reduces information asymmetry by lowering investors’ costs of processing public information. Using a firm-level measure of how effectively ChatGPT interprets financial disclosures and its public release as a shock, we find that firms with more AI-processable disclosures experience declines in informed trading, adverse selection, and volatility, along with improved liquidity and price efficiency. Retail order imbalances increase, consistent with enhanced processing of public information. An independent measure based on occupational characteristics provides complementary evidence. Overall, our findings suggest that generative AI democratizes information processing, reduces sophisticated investors’ informational advantages, and improves market quality.",
+      award: "Outstanding Paper Award for Overseas Scholars — Joint Conference of the Allied Korean Finance Associations (AKFA), Seoul, May 2026",
       notes: [
-        "Scheduled: 3rd AI in Finance Conference, Montreal, Canada (October 2026)",
+        "Scheduled: FMA Asia & Pacific Conference, Auckland, New Zealand (December 2026)",
+        "Scheduled: AFA PhD Poster Session, Washington, DC (January 2027)",
+        "Featured in <a href=\"https://www.zertifikateberater.de/magazin/26-01\">Der Zertifikateberater</a> and <a href=\"https://management.buffalo.edu/about/highlights/ai-in-the-ub-school-of-management/when-ai-reads-fine-print-markets-shift.html\">AI in the UB School of Management</a>",
       ],
-    },
-    {
-      title: "Who Benefits from Generative AI? Firm Performance and Valuation after ChatGPT",
-      coauthors: "with Kee H. Chung",
-      date: "May 2026",
-      status: "Working Paper",
-      ssrn: "",
-      abstract: "We study the firm-level effects of generative AI using the release of ChatGPT as an exogenous shock. We construct a measure of Generative AI Benefit Potential (GBP) based on occupational work content and show that firms with higher GBP experience significant improvements in operating performance, productivity, and valuation, while reducing capital expenditures, R&D, and acquisitions. These effects are highly heterogeneous across work characteristics, with digital complementarity playing a central role. Stock returns reflect these gains only gradually, indicating delayed market learning. Our findings highlight how the composition of work content and absorptive capacity shape the economic impact of general-purpose technologies.",
-      notes: [],
     },
     {
       title: "Augmentation Versus Substitution: Asymmetric Effects of Generative AI on Firm Performance and Share Prices",
@@ -96,17 +90,23 @@ const SITE = {
       ],
     },
     {
-      title: "When AI Reads the 10-Ks: The Effects of ChatGPT on Trading and Price Dynamics",
-      coauthors: "with Kee H. Chung and Sahn-Wook Huh",
-      date: "December 2025",
+      title: "Who Benefits from Generative AI? Firm Performance and Valuation after ChatGPT",
+      coauthors: "with Kee H. Chung",
+      date: "May 2026",
       status: "Working Paper",
-      ssrn: "https://ssrn.com/abstract=5985874",
-      abstract: "We examine whether generative AI reduces information asymmetry by lowering investors’ costs of processing public information. Using a firm-level measure of how effectively ChatGPT interprets financial disclosures and its public release as a shock, we find that firms with more AI-processable disclosures experience declines in informed trading, adverse selection, and volatility, along with improved liquidity and price efficiency. Retail order imbalances increase, consistent with enhanced processing of public information. An independent measure based on occupational characteristics provides complementary evidence. Overall, our findings suggest that generative AI democratizes information processing, reduces sophisticated investors’ informational advantages, and improves market quality.",
-      award: "Outstanding Paper Award for Overseas Scholars — Joint Conference of the Allied Korean Finance Associations (AKFA), Seoul, May 2026",
+      ssrn: "",
+      abstract: "We study the firm-level effects of generative AI using the release of ChatGPT as an exogenous shock. We construct a measure of Generative AI Benefit Potential (GBP) based on occupational work content and show that firms with higher GBP experience significant improvements in operating performance, productivity, and valuation, while reducing capital expenditures, R&D, and acquisitions. These effects are highly heterogeneous across work characteristics, with digital complementarity playing a central role. Stock returns reflect these gains only gradually, indicating delayed market learning. Our findings highlight how the composition of work content and absorptive capacity shape the economic impact of general-purpose technologies.",
+      notes: [],
+    },
+    {
+      title: "How Sure Is the Machine? Extracting Economically Meaningful Signals from LLM Response Confidence",
+      coauthors: "with Kee H. Chung",
+      date: "July 2026",
+      status: "Working Paper",
+      ssrn: "",
+      abstract: "",
       notes: [
-        "Scheduled: FMA Asia & Pacific Conference, Auckland, New Zealand (December 2026)",
-        "Scheduled: AFA PhD Poster Session, Washington, DC (January 2027)",
-        "Featured in <a href=\"https://www.zertifikateberater.de/magazin/26-01\">Der Zertifikateberater</a> and <a href=\"https://management.buffalo.edu/about/highlights/ai-in-the-ub-school-of-management/when-ai-reads-fine-print-markets-shift.html\">AI in the UB School of Management</a>",
+        "Scheduled: 3rd AI in Finance Conference, Montreal, Canada (October 2026)",
       ],
     },
     {
