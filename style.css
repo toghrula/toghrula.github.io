@@ -54,7 +54,7 @@ h1, h2, h3, h4 { margin: 0; font-weight: 500; line-height: 1.2; }
 
 /* ---------- Hero ---------- */
 .hero { padding: 72px 0 56px; border-bottom: 1px solid var(--rule); }
-.hero .wrap { display: grid; grid-template-columns: 1fr 240px; gap: 56px; align-items: center; }
+.hero .wrap { display: grid; grid-template-columns: 1fr 380px; gap: 48px; align-items: center; }
 .hero.no-photo .wrap { grid-template-columns: 1fr; }
 .kicker { font-family: var(--sans); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--accent-2); margin-bottom: 14px; }
 .hero h1 { font-size: clamp(38px, 5vw, 56px); font-weight: 400; letter-spacing: -.01em; margin-bottom: 14px; }
@@ -69,7 +69,7 @@ h1, h2, h3, h4 { margin: 0; font-weight: 500; line-height: 1.2; }
 .iconlinks a { border: 1px solid var(--rule); border-radius: 50%; width: 38px; height: 38px; display: inline-flex; align-items: center; justify-content: center; color: var(--ink-soft); background: #fff; }
 .iconlinks a:hover { color: var(--accent); border-color: var(--accent); }
 .iconlinks svg { width: 17px; height: 17px; fill: currentColor; }
-.portrait { width: 240px; height: 240px; border-radius: 50%; object-fit: cover; object-position: center top; box-shadow: 0 1px 0 rgba(0,0,0,.04), 0 12px 32px -14px rgba(31,58,95,.35); background: var(--paper-2); }
+.portrait { width: 100%; height: auto; border-radius: 6px; box-shadow: 0 1px 0 rgba(0,0,0,.04), 0 12px 32px -14px rgba(31,58,95,.35); background: var(--paper-2); }
 
 /* ---------- Sections ---------- */
 section { padding: 64px 0; border-bottom: 1px solid var(--rule); }
@@ -146,7 +146,7 @@ footer .wrap { display: flex; justify-content: space-between; flex-wrap: wrap; g
 @media (max-width: 860px) {
   .section-head { grid-template-columns: 1fr; gap: 18px; }
   .hero .wrap { grid-template-columns: 1fr; gap: 32px; }
-  .hero .wrap .portrait { order: -1; width: 160px; height: 160px; }
+  .hero .wrap .portrait { order: -1; width: 100%; max-width: 420px; height: auto; }
   .grid2 { grid-template-columns: 1fr; }
   .nav .brand span { display: inline; }
 }
