@@ -28,11 +28,10 @@ const SITE = {
   // through them. Upload each image to the repo and add a line here; the
   // first one shows first. A caption is optional. Leave [] to hide.
   photos: [
-    { src: "headshot.jpg", caption: "", full: true },   // full: true = show the whole photo, no cropping
     { src: "fma2025.jpg",  caption: "Discussant, FMA Annual Meeting, Vancouver, 2025" },
     { src: "photo.jpg",    caption: "Presenting “Augmentation Versus Substitution”" },
   ],
-  cvFile: "Toghrul_Aghbabali_CV.pdf",   // your CV PDF (in the same folder as index.html); "" hides the button
+  cvFile: "Toghrul%20CV%20Oct26.pdf",   // your CV PDF (in the same folder as index.html); "" hides the button
 
   // Profile links. Add or remove lines freely. Icons: "ssrn", "scholar",
   // "linkedin", "github", "twitter", "orcid", "email", "link".
