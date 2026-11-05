@@ -235,6 +235,17 @@
   // ---- more ----
   const block = (h, arr, fn) => (arr || []).length ? `<div><h3>${h}</h3><ul>${list(arr, fn)}</ul></div>` : "";
   $("more-grid").innerHTML =
+    list(SITE.programs || [], p => `<div class="program">
+      ${p.image ? `<figure>${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">` : ""}<img src="${esc(p.image)}" alt="${esc(p.caption || p.title)}" loading="lazy">${p.url ? "</a>" : ""}${p.caption ? `<figcaption>${esc(p.caption)}</figcaption>` : ""}</figure>` : ""}
+      <div>
+        <h3>Programs &amp; Outreach</h3>
+        <h4>${esc(p.title)}</h4>
+        <div class="sub">${esc(p.role)}${p.year ? `<span class="sep">·</span>${esc(p.year)}` : ""}</div>
+        <div class="sub">${esc(p.org)}${p.place ? ", " + esc(p.place) : ""}</div>
+        ${p.text ? `<p>${esc(p.text)}</p>` : ""}
+        ${p.url ? `<a class="plink" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.linkLabel || "Learn more")}&nbsp;→</a>` : ""}
+      </div>
+    </div>`) +
     block("Writing &amp; Media", SITE.media, m => `<li class="media"><a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.text)}</a><span class="outlet">${esc(m.outlet)}</span></li>`) +
     block("Professional Memberships", SITE.memberships, s => `<li>${esc(s)}</li>`) +
     block("Certifications", SITE.certifications, s => `<li>${esc(s)}</li>`) +

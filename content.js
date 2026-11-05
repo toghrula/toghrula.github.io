@@ -132,6 +132,23 @@ const SITE = {
     { year: "2025", text: "Market Microstructure Summer School, University of Edinburgh (June)" },
   ],
 
+  /* ---------- Programs & outreach ---------- */
+  // Shown at the top of "Additional", full width. `image` and `url` are optional.
+  programs: [
+    {
+      title: "Executive & Professional AI Training",
+      role: "Program liaison and co-developer",
+      org: "UB School of Management × Azerbaijan's National Artificial Intelligence Center (NAIC)",
+      place: "Baku, Azerbaijan",
+      year: "2026",
+      text: "Helped connect NAIC with the UB School of Management and contributed to module and program development for a two-day training that helped more than 180 executives and professionals from Azerbaijan's public and private sectors put AI into practice, covering applications in finance, accounting, supply chain management and business analytics. The program supports Azerbaijan's national AI strategy.",
+      image: "naic-ub-baku.jpg",
+      caption: "Program team and UB faculty in Baku",
+      url: "https://bit.ly/naic-buffalo-training",
+      linkLabel: "UB School of Management announcement",
+    },
+  ],
+
   /* ---------- Writing & media ---------- */
   media: [
     {
